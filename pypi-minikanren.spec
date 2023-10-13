@@ -4,7 +4,7 @@
 #
 Name     : pypi-minikanren
 Version  : 1.0.3
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/c8/21/1be8af0ecaf5a61abebabc8dabf63a08d72334ced5bb9f9d027fd7abbf42/miniKanren-1.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c8/21/1be8af0ecaf5a61abebabc8dabf63a08d72334ced5bb9f9d027fd7abbf42/miniKanren-1.0.3.tar.gz
 Summary  : Relational programming in Python
