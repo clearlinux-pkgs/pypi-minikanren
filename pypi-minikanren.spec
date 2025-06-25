@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-minikanren
-Version  : 1.0.4
-Release  : 19
-URL      : https://files.pythonhosted.org/packages/cc/ed/05b72fe4b1a54ffd57ac423aedc6ac8171b14758de4535ef1b99c5477a31/minikanren-1.0.4.tar.gz
-Source0  : https://files.pythonhosted.org/packages/cc/ed/05b72fe4b1a54ffd57ac423aedc6ac8171b14758de4535ef1b99c5477a31/minikanren-1.0.4.tar.gz
+Version  : 1.0.5
+Release  : 20
+URL      : https://files.pythonhosted.org/packages/ab/3d/bbab3c19771efbfafc52de98db8ad7cf3c2c444bbbd7241c2b06e9f305bc/minikanren-1.0.5.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ab/3d/bbab3c19771efbfafc52de98db8ad7cf3c2c444bbbd7241c2b06e9f305bc/minikanren-1.0.5.tar.gz
 Summary  : Relational programming in Python
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -61,10 +61,10 @@ python3 components for the pypi-minikanren package.
 
 
 %prep
-%setup -q -n minikanren-1.0.4
-cd %{_builddir}/minikanren-1.0.4
+%setup -q -n minikanren-1.0.5
+cd %{_builddir}/minikanren-1.0.5
 pushd ..
-cp -a minikanren-1.0.4 buildavx2
+cp -a minikanren-1.0.5 buildavx2
 popd
 
 %build
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1750429186
+export SOURCE_DATE_EPOCH=1750862719
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
